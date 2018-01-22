@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Quick Trade</string>
+
+    <!-- Login fragments -->
+    <string name="loading">Cargando...</string>
+    <string name="forgot_password">¿Has olvidado la contraseña?</string>
+    <string name="username">Usuario</string>
+    <string name="sign_in">Entrar</string>
+    <string name="sign_up">Registrate</string>
+    <string name="dont_have_account">¿No estás registrado?</string>
+    <string name="password">Contraseña</string>
+    <string name="nick">Usuario</string>
+    <string name="name">Nombre</string>
+    <string name="surname">Apellidos</string>
+    <string name="email">Email</string>
+    <string name="direccion">Dirección</string>
+    <string name="birthday">Fecha de nacimiento</string>
+    <string name="already_have_account">¿Ya estás registrado?</string>
+    <string name="reset_password">Restablecer contraseña</string>
+    <string name="login_button_click">Login button clicked</string>
+    <string name="signup_button_click">Sign Up button clicked</string>
+    <string name="reset_password_button_clicked">Reset Password button clicked</string>
+    <string name="empty_username">Obligatorio</string>
+    <string name="empty">Obligatorio</string>
+    <string name="create_account">Crear una cuenta</string>
+
+    <!-- Main activity -->
+    <string name="title_activity_main">Quick Trade</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Menu superior - MainActivity -->
+    <string name="action_cerrar_sesion">Cerrar sesión</string>
+
+    <!-- Menu lateral - MainActivity -->
+    <string name="menu_item1">Subir producto</string>
+    <string name="menu_item2">Mis productos</string>
+    <string name="menu_item3">Ver todos los usuarios</string>
+    <string name="menu_item4">Cerrar sesión</string>
+    <string name="menu_item5">Mis favoritos</string>
+    <string name="title_activity_usuarios">Usuarios</string>
+
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="cabecera_perfil">Mi perfil</string>
+
+    <string name="guardar">Guardar</string>
+    <string name="cancelar">Cancelar</string>
+
+    <!-- LOGIN -->
+    <string name="registro_ok">Usuario registrado correctamente</string>
+
+    <!-- excepciones login -->
+    <string name="excepcion_pass_corta">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="excepcion_email_invalido">El formato del email no es válido</string>
+    <string name="excepcion_email_existente">Este email ya se encuentra registrado</string>
+
+    <!-- FIREBASE -->
+
+    <!-- nombres de los nodos -->
+    <string name="nodo_usuarios">usuarios</string>
+    <string name="nodo_productos">productos</string>
+    <string name="nodo_favoritos">favoritos</string>
+
+    <!-- campos de los nodos -->
+    <!-- nodo usuarios -->
+    <string name="campo_nick">nick</string>
+    <string name="campo_nombre">nombre</string>
+    <string name="campo_apellidos">apellidos</string>
+    <string name="campo_correo">correo</string>
+    <string name="campo_direccion">direccion</string>
+    <string name="campo_pass">pass</string>
+    <string name="campo_id">id</string>
+    <!-- nodo productos -->
+    <string name="campo_categoria">categoria</string>
+    <string name="campo_descripcion">descripcion</string>
+    <string name="campo_nombre_prod">nombre</string>
+    <string name="campo_precio">precio</string>
+    <string name="campo_ref_usuario">usuarioRef</string>
+
+    <!-- spinner categorias -->
+    <string name="array_categorias_titulo">Ver todo</string>
+    <string name="array_categorias_tecnologia">Tecnología</string>
+    <string name="array_categorias_coches">Coches</string>
+    <string name="array_categorias_hogar">Hogar</string>
+
+    <string-array name="categorias">
+        <item>@string/array_categorias_titulo</item>
+        <item>@string/array_categorias_tecnologia</item>
+        <item>@string/array_categorias_coches</item>
+        <item>@string/array_categorias_hogar</item>
+    </string-array>
+
+</resources>
